@@ -1,0 +1,85 @@
+﻿1. CNN2;;Std Desv.;;;;;Std Desv.;;Std Desv.
+CPU o GPU;Time(s);28.01009157;Power(W);;Applied energy(J);Accuracy;0.005804912;Loss;0.013252434
+CPU;1468.06;;NA;;;0.4755;;1.4217;
+CPU;1407.08;;NA;;;0.4733;;1.4285;
+CPU;1407.05;;NA;;;0.4702;;1.4338;
+CPU;1407.64;;NA;;;0.4839;;1.4036;
+CPU;1401.09;;NA;;;0.482;;1.4068;
+Average;1418.184;;#DIV/0!;;#DIV/0!;0.47698;;1.41888;
+;;;;;;;;;
+CPU o GPU;Time(s);21.12906576;Power(W);;Applied energy(J);Accuracy;0.004207969;Loss;0.009001833
+GPU;88.34;;NA;;;0.4727;;1.433;
+GPU;46.95;;NA;;;0.4789;;1.4163;
+GPU;31.9;;NA;;;0.4805;;1.4105;
+GPU;47.74;;NA;;;0.4842;;1.4117;
+GPU;47.66;;NA;;;0.4806;;1.4172;
+Average;52.518;;#DIV/0!;;#DIV/0!;0.47938;;1.41774;
+;;;;;;;;;
+2. RNN2;;;;;;;;;
+;;;;;;;;;
+CPU o GPU;Time(s);37.34876638;Power(W);;Applied energy(J);Accuracy;;Loss;0.12895436
+CPU;1592.66;;NA;;NA;NA;;3.6891;
+CPU;1576.51;;NA;;NA;NA;;3.612;
+CPU;1646.08;;NA;;NA;NA;;3.5835;
+CPU;1621.92;;NA;;NA;NA;;3.9123;
+CPU;1551.03;;NA;;NA;NA;;3.6952;
+Average;1597.64;;#DIV/0!;;#DIV/0!;;;3.69842;
+;;;;;;;;;
+CPU o GPU;Time(s);0.704286873;Power(W);;Applied energy(J);Accuracy;;Loss;0.047995177
+GPU;38.3;;NA;;NA;NA;;3.6634;
+GPU;36.54;;NA;;NA;NA;;3.6867;
+GPU;36.68;;NA;;NA;NA;;3.6293;
+GPU;36.95;;NA;;NA;NA;;3.6394;
+GPU;37.32;;NA;;NA;NA;;3.5596;
+Average;37.158;;#DIV/0!;;#DIV/0!;;;3.63568;
+;;;;;;;;;
+3. RNN3 / RNN3LSTM;;;;;;;;;
+CPU o GPU;Time(s);0.939004792;Power(W);;Applied energy(J);Accuracy;;Loss;0.032858911
+CPU;77.68;;NA;;NA;NA;;3.1726;
+CPU;76.45;;NA;;NA;NA;;3.2242;
+CPU;75.39;;NA;;NA;NA;;3.1624;
+CPU;77.22;;NA;;NA;NA;;3.203;
+CPU;75.88;;NA;;NA;NA;;3.1416;
+Average;76.524;;#DIV/0!;;#DIV/0!;;;3.18076;
+;;;;;;;;;
+GPU;35.54;0.637651943;NA;;NA;NA;;3.1933;0.015364179
+GPU;34.2;;NA;;NA;NA;;3.1963;
+GPU;34.08;;NA;;NA;NA;;3.1827;
+GPU;33.98;;NA;;NA;NA;;3.2134;
+GPU;34.6;;NA;;NA;NA;;3.1725;
+Average;34.48;;#DIV/0!;;#DIV/0!;;;3.19164;
+;;;;;;;;;
+;;;;;;;;;
+4. TRANSFORMER;;;;;;;;;
+CPU o GPU;Time(s);21.54785326;Power(W);;Applied energy(J);Accuracy;0.03084012;Loss;0.026556035
+CPU;451.87;;NA;;;0.2375;;1.6059;
+CPU;440.9;;NA;;;0.3039;;1.5495;
+CPU;481.53;;NA;;;0.3143;;1.5404;
+CPU;485.65;;NA;;;0.3062;;1.5452;
+CPU;487.47;;NA;;;0.2924;;1.5592;
+Average;469.484;;#DIV/0!;;#DIV/0!;0.29086;;1.56004;
+;;10.93734748;;;;;0.007799551;;0.007493531
+GPU;51.55;;NA;;;0.2786;;1.5714;
+GPU;31.08;;NA;;;0.2655;;1.5762;
+GPU;31.69;;NA;;;0.2769;;1.5679;
+GPU;31.66;;NA;;;0.2676;;1.5737;
+GPU;51.33;;NA;;;0.2841;;1.557;
+Average;39.462;;#DIV/0!;;#DIV/0!;0.27454;;1.56924;
+;;;;;;;;;
+;;;;;;;;;
+5. XGBoost / XG;;;;;;;;;
+CPU o GPU;Time(s);8.994596711;Power(W);;Applied energy(J);Accuracy;1.24127E-16;Loss;
+CPU;768.35;;NA;;#VALUE!;0.815;;NA;
+CPU;743.62;;NA;;#VALUE!;0.815;;NA;
+CPU;752.6;;NA;;#VALUE!;0.815;;NA;
+CPU;753.37;;NA;;#VALUE!;0.815;;NA;
+CPU;751.22;;NA;;#VALUE!;0.815;;NA;
+Average;753.832;;#DIV/0!;;#VALUE!;0.815;;;
+;;;;;;;;;
+CPU o GPU;Time(s);0.253712436;Power(W);;Applied energy(J);Accuracy;0;Loss;
+GPU;31.45;;NA;;#VALUE!;0.819;;NA;
+GPU;30.89;;NA;;#VALUE!;0.819;;NA;
+GPU;31.52;;NA;;#VALUE!;0.819;;NA;
+GPU;31.41;;NA;;#VALUE!;0.819;;NA;
+GPU;31.22;;NA;;#VALUE!;0.819;;NA;
+Average;31.298;;#DIV/0!;;#VALUE!;0.819;;;
