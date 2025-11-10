@@ -1,4 +1,4 @@
-CNN2,,,,,,,,,,
+﻿CNN2;;;;;;;;;;
 Device;Technique;Time(s);STD.DESV;Power(W);POWER STD.DESV;;ACC;DESV.EST ACC;LOSS;DESV.EST LOSS
 M4 CPU;CNN2;75.92;2.519746019;68;0.378153408;5162.56;0.4794;0.006258594;1.4123;0.015849921
 M4 CPU;CNN2;80.72;;68.2;;5505.104;0.467;;1.4469;
@@ -80,4 +80,3 @@ M4 GPU;XGboost;Not supported;;Not supported;;Not supported;NA;;NA;
 M4 GPU;XGboost;Not supported;;Not supported;;Not supported;NA;;NA;
 M4 GPU;XGboost;Not supported;;Not supported;;Not supported;NA;;NA;
 M4 GPU;XGboost;Not supported;;Not supported;;Not supported;NA;;NA;
-
